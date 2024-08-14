@@ -1,0 +1,1968 @@
+[
+    {
+        "label": "socket,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket.sys",
+        "description": "socket.sys",
+        "detail": "socket.sys",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140458",
+        "description": ".history.consultareg_20240814140458",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140458",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140458",
+        "description": ".history.consultareg_20240814140458",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140458",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140458",
+        "description": ".history.consultareg_20240814140458",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140458",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140458",
+        "description": ".history.consultareg_20240814140458",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140458",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140954",
+        "description": ".history.consultareg_20240814140954",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140954",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140954",
+        "description": ".history.consultareg_20240814140954",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140954",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140954",
+        "description": ".history.consultareg_20240814140954",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140954",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814140954",
+        "description": ".history.consultareg_20240814140954",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814140954",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141150",
+        "description": ".history.consultareg_20240814141150",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141150",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141150",
+        "description": ".history.consultareg_20240814141150",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141150",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141150",
+        "description": ".history.consultareg_20240814141150",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141150",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141150",
+        "description": ".history.consultareg_20240814141150",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141150",
+        "documentation": {}
+    },
+    {
+        "label": "sys.argv[1]",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141345",
+        "description": ".history.consultareg_20240814141345",
+        "peekOfCode": "sys.argv[1] = \"businesscorp.com.br\"\nif len(sys.argv) != 2:\n    print(\"Usage: python3 consultareg.py <domain>\")\n    sys.exit(1)\ndomain = sys.argv[1]\ns = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")\n    resposta = s.recv(1024).decode('utf-8').split()",
+        "detail": ".history.consultareg_20240814141345",
+        "documentation": {}
+    },
+    {
+        "label": "domain",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141345",
+        "description": ".history.consultareg_20240814141345",
+        "peekOfCode": "domain = sys.argv[1]\ns = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")\n    resposta = s.recv(1024).decode('utf-8').split()\n    whois = resposta[19]\nexcept socket.error as e:\n    print(f\"Error connecting to whois server: {e}\")\n    sys.exit(1)",
+        "detail": ".history.consultareg_20240814141345",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141345",
+        "description": ".history.consultareg_20240814141345",
+        "peekOfCode": "s = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")\n    resposta = s.recv(1024).decode('utf-8').split()\n    whois = resposta[19]\nexcept socket.error as e:\n    print(f\"Error connecting to whois server: {e}\")\n    sys.exit(1)\nfinally:",
+        "detail": ".history.consultareg_20240814141345",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141345",
+        "description": ".history.consultareg_20240814141345",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s1.connect((whois,43))\n    s1.send(domain.encode('utf-8') + b\"/r/n\")\n    resp = s1.recv(1024).decode('utf-8')\n    print(resp)\nexcept socket.error as e:\n    print(f\"Error connecting to domain's whois server: {e}\")\n    sys.exit(1)\nfinally:",
+        "detail": ".history.consultareg_20240814141345",
+        "documentation": {}
+    },
+    {
+        "label": "#sys.argv[1]",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141436",
+        "description": ".history.consultareg_20240814141436",
+        "peekOfCode": "#sys.argv[1] = \"businesscorp.com.br\"\n#if len(sys.argv) != 2:\n#    print(\"Usage: python3 consultareg.py <domain>\")\n#    sys.exit(1)\n#domain = sys.argv[1]\ndomain = \"businesscorp.com.br\"\ns = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")",
+        "detail": ".history.consultareg_20240814141436",
+        "documentation": {}
+    },
+    {
+        "label": "#domain",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141436",
+        "description": ".history.consultareg_20240814141436",
+        "peekOfCode": "#domain = sys.argv[1]\ndomain = \"businesscorp.com.br\"\ns = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")\n    resposta = s.recv(1024).decode('utf-8').split()\n    whois = resposta[19]\nexcept socket.error as e:\n    print(f\"Error connecting to whois server: {e}\")",
+        "detail": ".history.consultareg_20240814141436",
+        "documentation": {}
+    },
+    {
+        "label": "domain",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141436",
+        "description": ".history.consultareg_20240814141436",
+        "peekOfCode": "domain = \"businesscorp.com.br\"\ns = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")\n    resposta = s.recv(1024).decode('utf-8').split()\n    whois = resposta[19]\nexcept socket.error as e:\n    print(f\"Error connecting to whois server: {e}\")\n    sys.exit(1)",
+        "detail": ".history.consultareg_20240814141436",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141436",
+        "description": ".history.consultareg_20240814141436",
+        "peekOfCode": "s = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s.connect((\"whois.iana.org\",43))\n    s.send(domain.encode('utf-8') + b\"\\r\\n\")\n    resposta = s.recv(1024).decode('utf-8').split()\n    whois = resposta[19]\nexcept socket.error as e:\n    print(f\"Error connecting to whois server: {e}\")\n    sys.exit(1)\nfinally:",
+        "detail": ".history.consultareg_20240814141436",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141436",
+        "description": ".history.consultareg_20240814141436",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ntry:\n    s1.connect((whois,43))\n    s1.send(domain.encode('utf-8') + b\"/r/n\")\n    resp = s1.recv(1024).decode('utf-8')\n    print(resp)\nexcept socket.error as e:\n    print(f\"Error connecting to domain's whois server: {e}\")\n    sys.exit(1)\nfinally:",
+        "detail": ".history.consultareg_20240814141436",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141927",
+        "description": ".history.consultareg_20240814141927",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141927",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141927",
+        "description": ".history.consultareg_20240814141927",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141927",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141927",
+        "description": ".history.consultareg_20240814141927",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141927",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141927",
+        "description": ".history.consultareg_20240814141927",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141927",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141949",
+        "description": ".history.consultareg_20240814141949",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141949",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141949",
+        "description": ".history.consultareg_20240814141949",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141949",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141949",
+        "description": ".history.consultareg_20240814141949",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141949",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141949",
+        "description": ".history.consultareg_20240814141949",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141949",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141959",
+        "description": ".history.consultareg_20240814141959",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141959",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141959",
+        "description": ".history.consultareg_20240814141959",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141959",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141959",
+        "description": ".history.consultareg_20240814141959",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141959",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814141959",
+        "description": ".history.consultareg_20240814141959",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814141959",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142000",
+        "description": ".history.consultareg_20240814142000",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142000",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142000",
+        "description": ".history.consultareg_20240814142000",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142000",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142000",
+        "description": ".history.consultareg_20240814142000",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142000",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142000",
+        "description": ".history.consultareg_20240814142000",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142000",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142134",
+        "description": ".history.consultareg_20240814142134",
+        "peekOfCode": "alvo = \"businesscorp.com.br\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\n#s.send(sys.argv[1]+\"\\r\\n\")\ns.send(alvo + \"\\r\\n\")\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142134",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142134",
+        "description": ".history.consultareg_20240814142134",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142134",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142134",
+        "description": ".history.consultareg_20240814142134",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142134",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142134",
+        "description": ".history.consultareg_20240814142134",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142134",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142134",
+        "description": ".history.consultareg_20240814142134",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142134",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142246",
+        "description": ".history.consultareg_20240814142246",
+        "peekOfCode": "#alvo = sys.argv[1]+\"\\r\\n\"\nalvo = \"businesscorp.com.br\" + \"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142246",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142246",
+        "description": ".history.consultareg_20240814142246",
+        "peekOfCode": "alvo = \"businesscorp.com.br\" + \"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)",
+        "detail": ".history.consultareg_20240814142246",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142246",
+        "description": ".history.consultareg_20240814142246",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142246",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142246",
+        "description": ".history.consultareg_20240814142246",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142246",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142246",
+        "description": ".history.consultareg_20240814142246",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142246",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142246",
+        "description": ".history.consultareg_20240814142246",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142246",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142316",
+        "description": ".history.consultareg_20240814142316",
+        "peekOfCode": "#alvo = sys.argv[1]+\"\\r\\n\"\nalvo = b\"businesscorp.com.br\" + \"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142316",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142316",
+        "description": ".history.consultareg_20240814142316",
+        "peekOfCode": "alvo = b\"businesscorp.com.br\" + \"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)",
+        "detail": ".history.consultareg_20240814142316",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142316",
+        "description": ".history.consultareg_20240814142316",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142316",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142316",
+        "description": ".history.consultareg_20240814142316",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142316",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142316",
+        "description": ".history.consultareg_20240814142316",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142316",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142316",
+        "description": ".history.consultareg_20240814142316",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142316",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142327",
+        "description": ".history.consultareg_20240814142327",
+        "peekOfCode": "#alvo = sys.argv[1]+\"\\r\\n\"\nalvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142327",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142327",
+        "description": ".history.consultareg_20240814142327",
+        "peekOfCode": "alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)",
+        "detail": ".history.consultareg_20240814142327",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142327",
+        "description": ".history.consultareg_20240814142327",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142327",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142327",
+        "description": ".history.consultareg_20240814142327",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142327",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142327",
+        "description": ".history.consultareg_20240814142327",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142327",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142327",
+        "description": ".history.consultareg_20240814142327",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142327",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142357",
+        "description": ".history.consultareg_20240814142357",
+        "peekOfCode": "#alvo = sys.argv[1]+\"\\r\\n\"\nalvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+        "detail": ".history.consultareg_20240814142357",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142357",
+        "description": ".history.consultareg_20240814142357",
+        "peekOfCode": "alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142357",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142357",
+        "description": ".history.consultareg_20240814142357",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142357",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142357",
+        "description": ".history.consultareg_20240814142357",
+        "peekOfCode": "whois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142357",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142357",
+        "description": ".history.consultareg_20240814142357",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142357",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142357",
+        "description": ".history.consultareg_20240814142357",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142357",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142411",
+        "description": ".history.consultareg_20240814142411",
+        "peekOfCode": "#alvo = sys.argv[1]+\"\\r\\n\"\nalvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+        "detail": ".history.consultareg_20240814142411",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142411",
+        "description": ".history.consultareg_20240814142411",
+        "peekOfCode": "alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142411",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142411",
+        "description": ".history.consultareg_20240814142411",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142411",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142411",
+        "description": ".history.consultareg_20240814142411",
+        "peekOfCode": "whois = resposta[19]\nprint(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142411",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142411",
+        "description": ".history.consultareg_20240814142411",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142411",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142411",
+        "description": ".history.consultareg_20240814142411",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142411",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142417",
+        "description": ".history.consultareg_20240814142417",
+        "peekOfCode": "#alvo = sys.argv[1]+\"\\r\\n\"\nalvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+        "detail": ".history.consultareg_20240814142417",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142417",
+        "description": ".history.consultareg_20240814142417",
+        "peekOfCode": "alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142417",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142417",
+        "description": ".history.consultareg_20240814142417",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142417",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142417",
+        "description": ".history.consultareg_20240814142417",
+        "peekOfCode": "whois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142417",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142417",
+        "description": ".history.consultareg_20240814142417",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142417",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142417",
+        "description": ".history.consultareg_20240814142417",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142417",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142515",
+        "description": ".history.consultareg_20240814142515",
+        "peekOfCode": "alvo = sys.argv[1]+b\"\\r\\n\"\n#alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+        "detail": ".history.consultareg_20240814142515",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142515",
+        "description": ".history.consultareg_20240814142515",
+        "peekOfCode": "#alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142515",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142515",
+        "description": ".history.consultareg_20240814142515",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142515",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142515",
+        "description": ".history.consultareg_20240814142515",
+        "peekOfCode": "whois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142515",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142515",
+        "description": ".history.consultareg_20240814142515",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142515",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142515",
+        "description": ".history.consultareg_20240814142515",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142515",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142552",
+        "description": ".history.consultareg_20240814142552",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\n#alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+        "detail": ".history.consultareg_20240814142552",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142552",
+        "description": ".history.consultareg_20240814142552",
+        "peekOfCode": "#alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142552",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142552",
+        "description": ".history.consultareg_20240814142552",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142552",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142552",
+        "description": ".history.consultareg_20240814142552",
+        "peekOfCode": "whois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142552",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142552",
+        "description": ".history.consultareg_20240814142552",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142552",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142552",
+        "description": ".history.consultareg_20240814142552",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142552",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142853",
+        "description": ".history.consultareg_20240814142853",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\n#alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+        "detail": ".history.consultareg_20240814142853",
+        "documentation": {}
+    },
+    {
+        "label": "#alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142853",
+        "description": ".history.consultareg_20240814142853",
+        "peekOfCode": "#alvo = b\"businesscorp.com.br\" + b\"\\r\\n\"\ns= socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns.connect(('whois.iana.org',43))\ns.send(alvo)\nresposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))",
+        "detail": ".history.consultareg_20240814142853",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142853",
+        "description": ".history.consultareg_20240814142853",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142853",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142853",
+        "description": ".history.consultareg_20240814142853",
+        "peekOfCode": "whois = resposta[19]\n#print(resposta)\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142853",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142853",
+        "description": ".history.consultareg_20240814142853",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo)\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142853",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814142853",
+        "description": ".history.consultareg_20240814142853",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814142853",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143232",
+        "description": ".history.consultareg_20240814143232",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143232",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143232",
+        "description": ".history.consultareg_20240814143232",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143232",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143232",
+        "description": ".history.consultareg_20240814143232",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143232",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143232",
+        "description": ".history.consultareg_20240814143232",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143232",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143303",
+        "description": ".history.consultareg_20240814143303",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143303",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143303",
+        "description": ".history.consultareg_20240814143303",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143303",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143303",
+        "description": ".history.consultareg_20240814143303",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143303",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143303",
+        "description": ".history.consultareg_20240814143303",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143303",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143320",
+        "description": ".history.consultareg_20240814143320",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143320",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143320",
+        "description": ".history.consultareg_20240814143320",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143320",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143320",
+        "description": ".history.consultareg_20240814143320",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143320",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143320",
+        "description": ".history.consultareg_20240814143320",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143320",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143346",
+        "description": ".history.consultareg_20240814143346",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143346",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143346",
+        "description": ".history.consultareg_20240814143346",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143346",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143346",
+        "description": ".history.consultareg_20240814143346",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143346",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143346",
+        "description": ".history.consultareg_20240814143346",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143346",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143406",
+        "description": ".history.consultareg_20240814143406",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143406",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143406",
+        "description": ".history.consultareg_20240814143406",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143406",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143406",
+        "description": ".history.consultareg_20240814143406",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143406",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143406",
+        "description": ".history.consultareg_20240814143406",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143406",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143550",
+        "description": ".history.consultareg_20240814143550",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143550",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143550",
+        "description": ".history.consultareg_20240814143550",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143550",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143550",
+        "description": ".history.consultareg_20240814143550",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143550",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143550",
+        "description": ".history.consultareg_20240814143550",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143550",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143619",
+        "description": ".history.consultareg_20240814143619",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143619",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143619",
+        "description": ".history.consultareg_20240814143619",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143619",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143619",
+        "description": ".history.consultareg_20240814143619",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143619",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143619",
+        "description": ".history.consultareg_20240814143619",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143619",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143620",
+        "description": ".history.consultareg_20240814143620",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143620",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143620",
+        "description": ".history.consultareg_20240814143620",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143620",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143620",
+        "description": ".history.consultareg_20240814143620",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143620",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143620",
+        "description": ".history.consultareg_20240814143620",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143620",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143631",
+        "description": ".history.consultareg_20240814143631",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143631",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143631",
+        "description": ".history.consultareg_20240814143631",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143631",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143631",
+        "description": ".history.consultareg_20240814143631",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143631",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143631",
+        "description": ".history.consultareg_20240814143631",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143631",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143645",
+        "description": ".history.consultareg_20240814143645",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143645",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143645",
+        "description": ".history.consultareg_20240814143645",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143645",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143645",
+        "description": ".history.consultareg_20240814143645",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143645",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143645",
+        "description": ".history.consultareg_20240814143645",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143645",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143936",
+        "description": ".history.consultareg_20240814143936",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\n#s.send(sys.argv[1]+\"\\r\\n\")\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)",
+        "detail": ".history.consultareg_20240814143936",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143936",
+        "description": ".history.consultareg_20240814143936",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143936",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143936",
+        "description": ".history.consultareg_20240814143936",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143936",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143936",
+        "description": ".history.consultareg_20240814143936",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143936",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814143936",
+        "description": ".history.consultareg_20240814143936",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814143936",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144009",
+        "description": ".history.consultareg_20240814144009",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\n#s.send(sys.argv[1]+\"\\r\\n\")\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")",
+        "detail": ".history.consultareg_20240814144009",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144009",
+        "description": ".history.consultareg_20240814144009",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144009",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144009",
+        "description": ".history.consultareg_20240814144009",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144009",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144009",
+        "description": ".history.consultareg_20240814144009",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144009",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144009",
+        "description": ".history.consultareg_20240814144009",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144009",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144010",
+        "description": ".history.consultareg_20240814144010",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\n#s.send(sys.argv[1]+\"\\r\\n\")\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")",
+        "detail": ".history.consultareg_20240814144010",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144010",
+        "description": ".history.consultareg_20240814144010",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144010",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144010",
+        "description": ".history.consultareg_20240814144010",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144010",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144010",
+        "description": ".history.consultareg_20240814144010",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144010",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144010",
+        "description": ".history.consultareg_20240814144010",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144010",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144031",
+        "description": ".history.consultareg_20240814144031",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\n#s.send(sys.argv[1]+\"\\r\\n\")\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")",
+        "detail": ".history.consultareg_20240814144031",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144031",
+        "description": ".history.consultareg_20240814144031",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144031",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144031",
+        "description": ".history.consultareg_20240814144031",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144031",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144031",
+        "description": ".history.consultareg_20240814144031",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144031",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144031",
+        "description": ".history.consultareg_20240814144031",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144031",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144039",
+        "description": ".history.consultareg_20240814144039",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\n#s.send(sys.argv[1]+\"\\r\\n\")\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")",
+        "detail": ".history.consultareg_20240814144039",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144039",
+        "description": ".history.consultareg_20240814144039",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144039",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144039",
+        "description": ".history.consultareg_20240814144039",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144039",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144039",
+        "description": ".history.consultareg_20240814144039",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\n#s1.send(sys.argv[1]+\"/r/n\")\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144039",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144039",
+        "description": ".history.consultareg_20240814144039",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144039",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144058",
+        "description": ".history.consultareg_20240814144058",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144058",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144058",
+        "description": ".history.consultareg_20240814144058",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144058",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144058",
+        "description": ".history.consultareg_20240814144058",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144058",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144058",
+        "description": ".history.consultareg_20240814144058",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144058",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814144058",
+        "description": ".history.consultareg_20240814144058",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(resp)",
+        "detail": ".history.consultareg_20240814144058",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814160734",
+        "description": ".history.consultareg_20240814160734",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(tabulate(resp))",
+        "detail": ".history.consultareg_20240814160734",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814160734",
+        "description": ".history.consultareg_20240814160734",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(tabulate(resp))",
+        "detail": ".history.consultareg_20240814160734",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814160734",
+        "description": ".history.consultareg_20240814160734",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(tabulate(resp))",
+        "detail": ".history.consultareg_20240814160734",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814160734",
+        "description": ".history.consultareg_20240814160734",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\nprint(tabulate(resp))",
+        "detail": ".history.consultareg_20240814160734",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814160734",
+        "description": ".history.consultareg_20240814160734",
+        "peekOfCode": "resp = s1.recv(1024)\nprint(tabulate(resp))",
+        "detail": ".history.consultareg_20240814160734",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "resp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "content_str",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "content_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "lines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_lines",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "filtered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "data = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161007",
+        "description": ".history.consultareg_20240814161007",
+        "peekOfCode": "table = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161007",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "resp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "content_str",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "content_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "lines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_lines",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "filtered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "data = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161008",
+        "description": ".history.consultareg_20240814161008",
+        "peekOfCode": "table = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161008",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "resp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "content_str",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "content_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "lines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_lines",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "filtered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "data = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": ".history.consultareg_20240814161147",
+        "description": ".history.consultareg_20240814161147",
+        "peekOfCode": "table = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": ".history.consultareg_20240814161147",
+        "documentation": {}
+    },
+    {
+        "label": "alvo",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "alvo = sys.argv[1]+\"\\r\\n\"\ns.send(alvo.encode())\nresposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "resposta = s.recv(1024).split()\nwhois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "whois",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "whois = resposta[19]\ns.close()\ns1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ns1.connect((whois,43))\ns1.send(alvo.encode())\nresp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "resp = s1.recv(1024)\n# Convertendo o byte string para string\ncontent_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "content_str",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "content_str = resp.decode('utf-8')\n# Separando as linhas e filtrando as linhas relevantes\nlines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "lines = content_str.split('\\n')\nfiltered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_lines",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "filtered_lines = [line for line in lines if ':' in line]\n# Criando uma lista de listas para a tabela\ndata = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "data = [line.split(':', 1) for line in filtered_lines]\n# Criando a tabela\ntable = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": "consultareg",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": "consultareg",
+        "description": "consultareg",
+        "peekOfCode": "table = tabulate(data, headers=[\"Campo\", \"Valor\"], tablefmt=\"grid\")\n# Exibindo a tabela\nprint(table)",
+        "detail": "consultareg",
+        "documentation": {}
+    }
+]
